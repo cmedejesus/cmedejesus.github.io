@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mitch Photography - About</title>
+        <meta name="viewport" content="width=device-width" shrink-to-fit=no>
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <style>
+            body {
+                background-image: url(./images/bgwhite.jpg);
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                overflow-x: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <div class="container-lg my-5 justify-content-center">
+            <ul class="nav bg-light justify-content-left border border-muted bg-opacity-75 rounded-3 shadow">
+                <li class="nav-item">
+                    <a class="btn btn-light nav-link text-center m-2 my-3 p-2 text-dark fs-6" href="home.html">Home</a>
+                </li>
+            </li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-light text-dark p-2 m-2 my-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Gallery
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="figures.html">Figures</a></li>
+                        <li><a class="dropdown-item" href="others.html">Others</a></li>
+                    </ul>
+                </div>
+            </li>
+                <li class="nav-item">
+                    <a class="btn btn-light nav-link text-center m-2 my-3 p-2 text-dark fs-6" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-dark active nav-link text-center p-2 m-2 my-3 text-light fs-6" href="contact.html">Contact</a>
+            </ul>
+        </div>
+
+    <!-- Socials -->
+        <div class="row d-flex justify-content-center">
+            <div class="container-fluid col-md-4 bg-light bg-opacity-50 h-75 my-3 mx-3 px-2 border border-muted rounded-3 shadow">
+                <h1 class="fs-4 fw-bold m-3 px-2">
+                    Socials
+                </h1>
+                <div class="justify-content-center border border-muted mb-5 rounded-3">
+                    <a href="https://www.facebook.com/mitsuraihara/"><img src="./images/fb.png"  class="w-25 m-2" alt="fb"></a>
+                    <a href="https://twitter.com/mitch_1911"><img src="./images/twitter.png" class="w-25 m-2" alt="twitter"></a>
+                    <a href="https://twitch.tv/mitchie_san"><img src="./images/twitch.png" class="m-2 w-25" alt="twitch"></a>
+                </div>
+
+        <!-- Other info -->
+                <h1 class="fs-4 fw-bold m-3 px-2">
+                    Other Information
+                </h1>
+                <div class="m-3 border border-muted rounded-3">
+                    <p class="my-3">
+                        <img src="./images/pin.png" alt="map-pin" class="mx-3 my-2" width="20px">
+                        Lipa City, Batangas | Quezon City, M.M.
+                    </p>
+                    <p class="my-3">
+                        <img src="./images/phone.png" alt="phone" class="mx-3 my-2" width="20px">
+                        +63 900 123 1234 (fake number)
+                    </p>
+                    <p class="my-3">
+                        <img src="./images/mail.png" alt="phone" class="mx-3 my-2" width="20px">
+                        mitch_1911@yahoo.com
+                    </p>
+                </div>
+            </div>
+    <!-- Contact Me -->
+            <div class="container-fluid col-md-6 bg-light bg-opacity-50 my-3 mx-3 ps-1 mb-5 border border-muted rounded-3 shadow">
+                <h1 class="fs-4 fw-bold m-3 px-2">
+                    Contact Me
+                </h1>
+                <form class="border border-muted rounded-3 m-3">
+                    <div class="form-group m-3">
+                        <label for="contactemail">Email Address:</label>
+                        <input type="email" class="form-control w-75 d-flex" id="contactemail" placeholder="Ex. sample@domain.com" required>
+                    </div>
+                    <div class="form-group m-3">
+                        <label for="subject">Subject:</label>
+                        <input type="email" class="form-control w-75 d-flex" id="subject" placeholder="---" required>
+                    </div>
+                    <div class="form-group m-3">
+                        <textarea class="form-control" id="mailbody" rows="10" style="resize:none;" required></textarea>
+                    </div>
+                    <div>
+                    <button type="submit" class="btn btn-dark m-3">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer class="page-footer font-small bg-dark bg-opacity-50">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-light text-center py-3">© CME_DeJesus 2023 Copyright:
+              <a href="/" class="text-light" style="text-decoration: none;">KodeGo.ph</a>
+            </div>
+            <!-- Copyright -->
+          
+        </footer>
+    </body>
+</html>
